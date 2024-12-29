@@ -2,7 +2,8 @@
 
 Análise imobiliaria estado da California - Estudo livro Mãos a Obra: Aprendizado de Máquina - Aurélien Géron
 
-
+Neste projeto será criado um modelo de preços para o setor imobiliário usando os dados do censo do estado da Califórnia (US Census Bureau).
+Estes dados têm indicadores como população, renda média, preço médio do imóvel para cada grupo de bairro, utilizando estas informações o modelo deve prever o preço médio do imóvel em qualquer região, considerando todos os indicadores.
 
 ## Índice
 
@@ -16,9 +17,11 @@ Análise imobiliaria estado da California - Estudo livro Mãos a Obra: Aprendiza
 
 ## Descrição
 
-Neste projeto será criado um modelo de preços para o setor imobiliário usando os dados do censo do estado da Califórnia (US Census Bureau).
-Estes dados têm indicadores como população, renda média, preço médio do imóvel para cada grupo de bairro, utilizando estas informações o modelo deve prever o preço médio do imóvel em qualquer região, considerando todos os indicadores.
+Este modelo tem o objetivo de alimentar outro modelo, fazendo parte de um Pipeline que auxiliará as decisões de investimento da Companhia, portanto é fundamental que suas predições dos preços dos imóveis sejam de alta acurácia.
 
+Hoje estes preços são estimados manualmente por uma equipe de especialistas que reune informações atualizadas sobre as regiões, quando não os têem eles utilizam regras complexas para estimar mas esse processo é caro e demorado, além disse não são raras as vezes que as estimativas estão abaixo da média em mais de 10%.
+
+A Avaliação dos especialistas consideram os dados do censo em alinhados as estimativas atuais.
 
 - Qual problema resolve
 - Para quem é útil?
